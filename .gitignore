@@ -1,0 +1,77 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/unity
+# Editar en https://www.toptal.com/developers/gitignore?templates=unity
+
+### Unidad ###
+# Este archivo .gitignore debe colocarse en la raíz del directorio de tu proyecto Unity.
+#
+# Obtén la última versión desde https://github.com/github/gitignore/blob/main/Unity.gitignore
+/[Ll]iblioteca/
+/[Tt]emp/
+/[Oo]bj/
+/[B]edificar/
+/[B]ulds/
+/[L]ogs/
+/[U]ser[Ss]settings/
+
+# Las capturas de memoria pueden alcanzar un tamaño excesivo.
+# También podrían contener datos extremadamente sensibles
+/[Mm]capturas de recuerdos/
+
+# Las grabaciones pueden llegar a ser excesivamente grandes.
+/[Rr]grabaciones/
+
+# Descomente esta línea si desea ignorar el complemento de herramientas de la tienda de recursos.
+# /[Aa]ssets/AssetStoreTools*
+
+# Plugin Jetbrains Rider autogenerado
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Directorio de caché de Visual Studio
+.vs/
+
+# Directorio de caché de Gradle
+.gradle/
+
+# Archivos de solución y proyecto generados automáticamente para VS/MD/Consulo
+Objeto exportado/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.usuario
+*.preferenciasdeusuario
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos meta generados por Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Archivo generado por Unity3D en informes de fallos
+sysinfo.txt
+
+# Construcciones
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Archivo generado por Crashlytics
+crashlytics-build.properties
+
+# Direcciones empaquetadas
+/[Aa]ssets/[Aa]ssets[Aa]direccionables[Dd]ata/*/*.bin*
+
+# Recursos temporales generados automáticamente para Android
+/[Aa]ssets/[Ss]streamingAssets/aa.meta
+/[Aa]ssets/[Ss]streamingAssets/aa/*
+
+# Fin de https://www.toptal.com/developers/gitignore/api/unity
